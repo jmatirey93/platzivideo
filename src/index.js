@@ -175,7 +175,7 @@ const store = createStore(reducer, initialState);
     
 ReactDom.render(
     <Provider store={store}>
-    <App />
+       <App />
     </Provider>,
     document.getElementById('app')
 );
